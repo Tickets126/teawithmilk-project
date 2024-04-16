@@ -1,0 +1,84 @@
+// 修改elementPlus样式
+:deep(.el-form-item__label) {
+    /* 给el-form组件的label标签颜色修改 */
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+:deep(.el-input__wrapper) {
+    /* 使input框的背景变透明 */
+    background-color: transparent;
+    /* 给边框加阴影能够使其有立体感 */
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+:deep(.el-input__inner) {
+    font-weight: 500;
+    // 设置输入字体的颜色
+    color: #FFFFFF;
+}
+
+:deep(.el-input__inner:hover) {
+    border-color: rgb(0, 255, 255);
+}
+
+:deep(.el-input__inner:focus) {
+    border-color: aqua;
+}
+
+:deep(.el-textarea__inner) {
+    /* 使textarea框的背景变透明 */
+    background-color: transparent;
+    /* 给边框加阴影能够使其有立体感 */
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.2);
+    font-weight: 500;
+    // 设置输入字体的颜色
+    color: #FFFFFF;
+}
+
+:deep(.el-table) {
+    font-weight: 500;
+    color: #FFFFFF;
+    /* 使table框的背景变透明 */
+    background-color: transparent;
+    /* 使边框也变透明 */
+    //border-color: transparent;
+    /* 给边框加阴影能够使其有立体感 */
+    //box-shadow: 3px 3px 0 0 rgba(0,0,0,0.2);
+}
+
+:deep(.el-table thead) {
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+:deep(.el-table th) {
+    background-color: transparent !important;
+}
+
+:deep(.el-table tr) {
+    background-color: transparent !important;
+}
+
+/*:deep(.el-table--enable-row-transition .el-table__body td, .el-table .cell) {
+  background-color: transparent;
+}*/
+// 修改table选中颜色
+:deep(.el-table tbody tr:hover>td) {
+    background-color: #909399 !important;
+}
+
+:deep(.el-button) {
+    width: 60px;
+    color: #409eff;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    border-color: transparent;
+    box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.2);
+}
+
+:deep(.el-upload-list) {
+    margin: 0px;
+    padding: 0px;
+}
